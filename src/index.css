@@ -183,10 +183,68 @@ a {
   color: var(--text);
 }
 
+/* CONTACT */
+
+.contact-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.contact-button,
+.x-button {
+  line-height: 1; /* normalize button internals */
+}
+
+/* TWITTER */
+
+.x-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.x-link:hover {
+  text-decoration: underline;
+}
+
+.x-icon {
+  font-size: 20px; /* this is the key change */
+  line-height: 1;
+}
+
+.x-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #000000; /* X brand black */
+  color: #ffffff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.x-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.x-button .x-icon {
+  font-size: 16px;
+  line-height: 1;
+}
 
 /* CONTACT TALLY BUTTON */
+
 .contact-button {
-  margin-top: 24px;
   padding: 12px 20px;
   font-size: 15px;
   font-weight: 500;
@@ -231,5 +289,12 @@ a {
 
   header nav {
     gap: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-actions {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

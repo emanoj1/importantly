@@ -3,31 +3,28 @@ export default function Contact() {
     <section id="contact" className="container">
       <h2 className="section-title">Contact</h2>
 
-      <p>Want to collaborate, invest, or talk ideas?</p>
+      <p>Have an idea, collaboration, or question?</p>
 
-      <ul>
-        <li>
-          <a
-            href="https://x.com/emanoj_"
-            aria-label="X"
-            target="_blank"
-            rel="noreferrer"
-          >
-            𝕏
-          </a>
-        </li>
+      <div className="contact-actions">
+        <button
+          className="contact-button"
+          data-tally-open="aQ2vD9"
+          data-tally-emoji-text="👋"
+          data-tally-emoji-animation="wave"
+        >
+          Start a conversation
+        </button>
 
-        <li>
-          <button
-            className="contact-button"
-            data-tally-open="aQ2vD9"
-            data-tally-emoji-text="👋"
-            data-tally-emoji-animation="wave"
-          >
-            Start a conversation
-          </button>
-        </li>
-      </ul>
+        <a
+          href="https://x.com/emanoj_"
+          target="_blank"
+          rel="noreferrer"
+          className="x-button"
+        >
+          <span className="x-icon">𝕏</span>
+          <span>Connect with the founder</span>
+        </a>
+      </div>
     </section>
   );
 }
