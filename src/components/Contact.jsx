@@ -7,7 +7,7 @@ export default function Contact() {
   
         <ul>
           <li>
-            <a href="https://x.com/YOUR_HANDLE" target="_blank" rel="noreferrer">
+            <a href="https://x.com/emanoj_" target="_blank" rel="noreferrer">
               X / Twitter
             </a>
           </li>

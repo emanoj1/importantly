@@ -18,9 +18,10 @@ export default function Header() {
       position: "fixed",
       top: 0,
       width: "100%",
-      background: "rgba(15,23,42,0.85)",
+      background: "rgba(248,250,252,0.9)",
       backdropFilter: "blur(8px)",
       zIndex: 10,
+      borderBottom: "1px solid var(--border)",
     },
     inner: {
       maxWidth: "1100px",
