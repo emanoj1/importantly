@@ -2,9 +2,9 @@ export default function Header() {
     return (
       <header style={styles.header}>
         <div style={styles.inner}>
-          <strong>Importantly</strong>
+          <strong style={{ letterSpacing: "0.3px" }}>Importantly</strong>
           <nav style={styles.nav}>
-            <a href="#apps">Apps</a>
+            <a href="#apps">Products</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
           </nav>
@@ -19,9 +19,8 @@ export default function Header() {
       top: 0,
       width: "100%",
       background: "rgba(248,250,252,0.9)",
-      backdropFilter: "blur(8px)",
-      zIndex: 10,
       borderBottom: "1px solid var(--border)",
+      zIndex: 10,
     },
     inner: {
       maxWidth: "1100px",
@@ -34,6 +33,7 @@ export default function Header() {
     nav: {
       display: "flex",
       gap: "24px",
+      fontSize: "15px",
     },
   };
   

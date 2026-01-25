@@ -1,17 +1,18 @@
 export default function Hero() {
     return (
-      <section className="container">
-        <h1 style={{ fontSize: "48px", maxWidth: "820px", lineHeight: 1.2 }}>
-          An indie product studio
+      <section className="container hero">
+        <h1>
+          Building focused web apps
           <br />
-          run by a solo builder who actually ships.
+          that actually ship.
         </h1>
   
-        <p style={{ color: "var(--muted)", maxWidth: "600px", marginTop: "24px" }}>
-          Importantly is a growing collection of focused web apps — built,
-          launched, and maintained in public.
+        <p>
+          Importantly is an independent product studio creating
+          high-quality tools that solve one problem well.
         </p>
       </section>
     );
   }
+  
   

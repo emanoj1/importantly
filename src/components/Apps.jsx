@@ -14,7 +14,7 @@ const apps = [
   export default function Apps() {
     return (
       <section id="apps" className="container">
-        <h2 className="section-title">Products</h2>
+        <h2 className="section-title">What we’ve built</h2>
   
         <div className="cards">
           {apps.map((app) => (
