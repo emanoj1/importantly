@@ -161,6 +161,28 @@ a {
   animation-delay: 0.1s;
 }
 
+/* ABOUT SECTION */
+
+.about-subtitle {
+  margin-top: 48px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.about-list {
+  max-width: 760px;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.about-list li {
+  margin-bottom: 12px;
+}
+
+.about-list strong {
+  color: var(--text);
+}
+
 
 /* CONTACT TALLY BUTTON */
 .contact-button {
