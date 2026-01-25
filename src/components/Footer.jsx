@@ -2,7 +2,7 @@ export default function Footer() {
     return (
       <footer style={styles.footer}>
         <div style={styles.inner}>
-          <p>© {new Date().getFullYear()} Importantly</p>
+          <p>© {new Date().getFullYear()} Importantly | Made with ❣️ in Australia 🐨</p>
         </div>
       </footer>
     );
