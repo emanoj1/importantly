@@ -1,19 +1,19 @@
 const apps = [
     {
-      name: "InterviewMonk",
-      desc: "Role-specific interview preparation tailored to the job and the candidate.",
+      name: "Interview Monk",
+      desc: "Role-specific interview preparation doc tailored to the job and the candidate. Powered by AI.",
       url: "https://interviewmonk.co",
       logo: "/logos/interviewmonk-sq-logo.png",
     },
     {
       name: "Featureless",
-      desc: "A clean, distraction-free writing space for focused thinking.",
+      desc: "A clean, distraction-free writing space for focused thinking. Just write, one article at a time.",
       url: "https://featureless.app",
       logo: "/logos/featureless-sq-logo.png",
     },
     {
         name: "Share your Kofi",
-        desc: "A directory of Ko-fi users.",
+        desc: "A directory of Ko-fi users. Meet more creators!",
         url: "https://shareyourkofi.com",
         logo: "/logos/shareyourkofi-sq-logo.png",
       },
