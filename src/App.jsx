@@ -1,19 +1,27 @@
+
+import { Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Apps from "./components/Apps";
-import About from "./components/About";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import TrueProfitPrivacy from "./pages/privacy/shopifyapps/TrueProfitPrivacy";
 
 export default function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Apps />
-      <About />
-      <Contact />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/privacy/true-profit"
+          element={<TrueProfitPrivacy />}
+        />
+      </Routes>
+
       <Footer />
     </>
   );
 }
+
