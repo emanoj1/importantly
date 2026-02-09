@@ -1,5 +1,11 @@
 const apps = [
   {
+    name: "Client Logo Wall",
+    desc: "A simple widget to display your client logos.",
+    url: "https://clientlogowall.com",
+    logo: "/logos/clw-logo.png",
+  },
+  {
     name: "Interview Monk",
     desc: "Role-specific interview preparation doc tailored to the job and the candidate. Powered by AI.",
     url: "https://interviewmonk.co",
