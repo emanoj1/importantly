@@ -4,7 +4,7 @@ export default function About() {
       <h2 className="section-title">About Importantly</h2>
 
       <p style={{ maxWidth: "760px" }}>
-        Importantly is an independent product studio focused on building small,
+        Importantly is a solo independent web apps & e-commerce studio focused on building small,
         high-quality web applications that solve specific problems well.
         Each product is designed with clarity, restraint, and long-term usefulness
         in mind.

@@ -9,7 +9,7 @@ export default function Hero() {
         </h1>
 
         <p>
-          Importantly is an independent product studio creating
+          Importantly is an solo-run independent web apps & e-commerce studio creating
           unique and interesting tools & service for the internet community.
         </p>
       </div>

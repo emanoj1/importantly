@@ -28,7 +28,7 @@ const apps = [
 export default function Apps() {
   return (
     <section id="apps" className="container">
-      <h2 className="section-title">What we’ve built</h2>
+      <h2 className="section-title">What's been built</h2>
 
       <div className="cards">
         {apps.map((app) => (
@@ -50,7 +50,7 @@ export default function Apps() {
           </div>
         ))}
         <div className="card muted">
-          <h3>More coming soon...</h3>
+          <h3>Let there be more!</h3>
           <p>New products are actively being built.</p>
         </div>
       </div>
