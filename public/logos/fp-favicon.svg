@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <rect width="240" height="240" rx="44" fill="#f7f5ef"/>
+  <text
+    x="120"
+    y="146"
+    text-anchor="middle"
+    fill="#375b43"
+    font-family="Fraunces, Georgia, serif"
+    font-size="112"
+    font-weight="500"
+    letter-spacing="-3.2"
+  >fp</text>
+</svg>

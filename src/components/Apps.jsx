@@ -3,7 +3,7 @@ const apps = [
     name: "FirstPerson.me",
     desc: "Your one page to share the story behind your career",
     url: "https://firstperson.me",
-    logo: "/logos/clw-logo.png",
+    logo: "/logos/fp-favicon.svg",
   },
   {
     name: "Client Logo Wall",
