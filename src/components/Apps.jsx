@@ -1,5 +1,11 @@
 const apps = [
   {
+    name: "FirstPerson.me",
+    desc: "Your one page to share the story behind your career",
+    url: "https://firstperson.me",
+    logo: "/logos/clw-logo.png",
+  },
+  {
     name: "Client Logo Wall",
     desc: "A simple widget to display your client logos.",
     url: "https://clientlogowall.com",
