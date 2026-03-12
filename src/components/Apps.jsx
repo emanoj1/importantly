@@ -1,7 +1,13 @@
 const apps = [
   {
+    name: "HeyMyBand",
+    desc: "Connecting Musicians, Bands & others in the music industry.",
+    url: "https://heymyband.com",
+    logo: "/logos/heymyband-logo.png",
+  },
+  {
     name: "FirstPerson.me",
-    desc: "Your one page to share the story behind your career",
+    desc: "Your one page to share the story behind your career.",
     url: "https://firstperson.me",
     logo: "/logos/fp-favicon.svg",
   },
