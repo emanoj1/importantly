@@ -6,23 +6,35 @@ export default function Contact() {
       <p>Have an idea, collaboration, or question?</p>
 
       <div className="contact-actions">
-        <button
-          className="contact-button"
-          data-tally-open="aQ2vD9"
-          data-tally-emoji-text="👋"
-          data-tally-emoji-animation="wave"
-        >
-          Start a conversation
-        </button>
+        <div className="contact-primary-actions">
+          <button
+            className="contact-button"
+            data-tally-open="aQ2vD9"
+            data-tally-emoji-text="👋"
+            data-tally-emoji-animation="wave"
+          >
+            Start a conversation
+          </button>
+
+          <a
+            href="https://x.com/emanoj_"
+            target="_blank"
+            rel="noreferrer"
+            className="x-button"
+          >
+            <span className="x-icon">𝕏</span>
+            <span>Connect with the founder</span>
+          </a>
+        </div>
 
         <a
-          href="https://x.com/emanoj_"
+          href="https://www.linkedin.com/company/importantly/"
           target="_blank"
           rel="noreferrer"
-          className="x-button"
+          className="linkedin-button"
         >
-          <span className="x-icon">𝕏</span>
-          <span>Connect with the founder</span>
+          <span className="linkedin-icon">in</span>
+          <span>Follow Importantly on LinkedIn</span>
         </a>
       </div>
     </section>
