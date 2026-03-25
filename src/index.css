@@ -200,9 +200,17 @@ a {
   flex-wrap: wrap;
 }
 
+.contact-social-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .contact-button,
 .x-button,
-.linkedin-button {
+.linkedin-button,
+.facebook-button {
   line-height: 1; /* normalize button internals */
 }
 
@@ -286,6 +294,42 @@ a {
   text-transform: lowercase;
 }
 
+/* FACEBOOK */
+
+.facebook-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #1877f2;
+  color: #ffffff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.facebook-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(24, 119, 242, 0.25);
+}
+
+.facebook-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  text-transform: lowercase;
+}
+
 /* CONTACT TALLY BUTTON */
 
 .contact-button {
@@ -338,6 +382,11 @@ a {
 
 @media (max-width: 640px) {
   .contact-primary-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-social-actions {
     flex-direction: column;
     align-items: flex-start;
   }

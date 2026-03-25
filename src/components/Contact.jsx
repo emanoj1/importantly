@@ -27,15 +27,27 @@ export default function Contact() {
           </a>
         </div>
 
-        <a
-          href="https://www.linkedin.com/company/importantly/"
-          target="_blank"
-          rel="noreferrer"
-          className="linkedin-button"
-        >
-          <span className="linkedin-icon">in</span>
-          <span>Follow Importantly on LinkedIn</span>
-        </a>
+        <div className="contact-social-actions">
+          <a
+            href="https://www.linkedin.com/company/importantly/"
+            target="_blank"
+            rel="noreferrer"
+            className="linkedin-button"
+          >
+            <span className="linkedin-icon">in</span>
+            <span>Follow Importantly on LinkedIn</span>
+          </a>
+
+          <a
+            href="https://www.facebook.com/importantly.dev"
+            target="_blank"
+            rel="noreferrer"
+            className="facebook-button"
+          >
+            <span className="facebook-icon">f</span>
+            <span>Follow Importantly on Facebook</span>
+          </a>
+        </div>
       </div>
     </section>
   );
