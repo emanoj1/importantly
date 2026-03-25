@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
+import ServicesWebsites from "./pages/ServicesWebsites";
 import TrueProfitPrivacy from "./pages/privacy/shopifyapps/TrueProfitPrivacy";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/services/websites" element={<ServicesWebsites />} />
         <Route
           path="/privacy/true-profit"
           element={<TrueProfitPrivacy />}
@@ -24,4 +26,3 @@ export default function App() {
     </>
   );
 }
-

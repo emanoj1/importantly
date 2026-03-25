@@ -174,6 +174,86 @@ a {
   font-size: 18px;
 }
 
+.services-promo-section {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.services-promo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 40px;
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 35%),
+    linear-gradient(135deg, #ffffff, #f8fbff 55%, #eef4ff);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.06);
+}
+
+.services-promo-copy {
+  max-width: 700px;
+}
+
+.services-promo-eyebrow,
+.service-page-eyebrow {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.services-promo h2,
+.service-page h1 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1.15;
+}
+
+.services-promo-text,
+.service-page-text {
+  max-width: 620px;
+  margin: 18px 0 0;
+  font-size: 18px;
+  color: var(--muted);
+}
+
+.services-promo-subtext {
+  margin: 14px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.services-promo-button {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  background: var(--text);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.services-promo-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.16);
+  text-decoration: none;
+}
+
+.service-page {
+  min-height: 50vh;
+}
+
 .about-list {
   max-width: 760px;
   padding-left: 20px;
@@ -386,6 +466,22 @@ a {
 
   .card {
     padding: 28px;
+  }
+
+  .services-promo {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px;
+  }
+
+  .services-promo h2,
+  .service-page h1 {
+    font-size: 30px;
+  }
+
+  .services-promo-text,
+  .service-page-text {
+    font-size: 17px;
   }
 
   header nav {
