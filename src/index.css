@@ -32,11 +32,11 @@ a {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 140px 24px;
+  padding: 104px 24px;
 }
 
 .container + .container {
-  padding-top: 80px;
+  padding-top: 56px;
 }
 
 .section-title {
@@ -133,10 +133,15 @@ a {
     rgba(37, 99, 235, 0.12),
     transparent 60%
   );
+  padding-bottom: 56px;
 }
 
 .hero {
   overflow: visible;
+}
+
+#apps.container {
+  padding-top: 32px;
 }
 
 
@@ -368,7 +373,15 @@ a {
   }
 
   .container {
-    padding: 100px 20px;
+    padding: 80px 20px;
+  }
+
+  .hero {
+    padding-bottom: 40px;
+  }
+
+  #apps.container {
+    padding-top: 24px;
   }
 
   .card {
