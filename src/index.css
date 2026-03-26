@@ -507,6 +507,71 @@ a {
   margin: 0;
 }
 
+.service-pricing-section {
+  margin-top: 12px;
+  border-radius: 28px;
+  background: #f2f6fb;
+}
+
+.service-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.service-pricing-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.service-pricing-audience {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.service-pricing-points {
+  flex: 1;
+  margin: 16px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.service-pricing-points li + li {
+  margin-top: 10px;
+}
+
+.service-pricing-amount {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.service-pricing-amount span {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.service-pricing-amount strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 28px;
+  line-height: 1.1;
+  color: var(--text);
+}
+
+.service-pricing-note {
+  margin: 22px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
 .service-form-card {
   display: flex;
   align-items: center;
@@ -829,7 +894,8 @@ a {
   .service-steps,
   .service-split-grid,
   .service-support-points,
-  .service-communication {
+  .service-communication,
+  .service-pricing-grid {
     grid-template-columns: 1fr;
   }
 

@@ -124,6 +124,39 @@ const communicationItems = [
   { icon: Video, title: "Virtual meetings", text: "For walkthroughs and alignment" },
 ];
 
+const pricingItems = [
+  {
+    title: "Personal / Profile Websites",
+    audience: "Influencers, freelancers, creators, tradies",
+    points: [
+      "One-page or simple multi-section site",
+      "Bio, services, links, contact",
+      "Clean personal branding",
+    ],
+    price: "$500 - $1,500",
+  },
+  {
+    title: "Business Websites",
+    audience: "Small businesses, local services",
+    points: [
+      "Multiple sections/pages",
+      "Services, contact, trust elements",
+      "Lead-focused layout",
+    ],
+    price: "$1,500 - $3,500",
+  },
+  {
+    title: "Custom Web Apps",
+    audience: "Custom builds using the MERN stack",
+    points: [
+      "Tailored workflows and functionality",
+      "More complex builds with planning and iteration",
+      "Best for products, internal tools, or custom ideas",
+    ],
+    price: "$3,000+",
+  },
+];
+
 function ArrowButton({ href, children, secondary = false, tally = false }) {
   const className = secondary
     ? "service-button service-button-secondary"
@@ -313,6 +346,34 @@ export default function ServicesWebsites() {
         </div>
         <p className="service-section-note">
           No unnecessary meetings, no bloated process.
+        </p>
+      </Section>
+
+      <Section
+        className="service-pricing-section"
+        eyebrow="Typical project ranges"
+        title="A general guide to scope and budget"
+        description="Every project is different, but here’s a general idea to help you understand scope and budget."
+      >
+        <div className="service-pricing-grid">
+          {pricingItems.map(({ title, audience, points, price }) => (
+            <Card key={title} className="service-pricing-card">
+              <p className="service-pricing-audience">{audience}</p>
+              <h3>{title}</h3>
+              <ul className="service-pricing-points">
+                {points.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
+              <div className="service-pricing-amount">
+                <span>Pricing</span>
+                <strong>{price}</strong>
+              </div>
+            </Card>
+          ))}
+        </div>
+        <p className="service-pricing-note">
+          If this looks like a fit, tell me about your project below.
         </p>
       </Section>
 
