@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ScrollManager from "./components/ScrollManager";
 
 import Home from "./pages/Home";
 import ServicesWebsites from "./pages/ServicesWebsites";
@@ -12,6 +13,7 @@ export default function App() {
   return (
     <>
       <Header />
+      <ScrollManager />
 
       <Routes>
         <Route path="/" element={<Home />} />
