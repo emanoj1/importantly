@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="contact-primary-actions">
           <button
             className="contact-button"
-            data-tally-open="RGRROP"
+            data-tally-open="aQ2vD9"
             data-tally-emoji-text="👋"
             data-tally-emoji-animation="wave"
           >
