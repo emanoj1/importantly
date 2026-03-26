@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function ServicesPromo() {
   return (
-    <section className="container services-promo-section">
+    <section id="services" className="container services-promo-section">
       <div className="services-promo">
         <div className="services-promo-copy">
           <p className="services-promo-eyebrow">Now offering client work</p>

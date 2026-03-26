@@ -9,6 +9,7 @@ export default function Header() {
         </Link>
         <nav style={styles.nav}>
           <a href="/#apps">Products</a>
+          <a href="/#services">Services</a>
           <a href="/#about">About</a>
           <a href="/#contact">Contact</a>
         </nav>
