@@ -1,5 +1,11 @@
 const apps = [
   {
+    name: "StarterBP",
+    desc: "Production-ready backend boilerplates for auth, docs, cookie consent, etc",
+    url: "https://StarterBP.com",
+    logo: "/logos/starterbp-icon.png",
+  },
+  {
     name: "HeyMyBand",
     desc: "Connecting Musicians, Bands & others in the music industry.",
     url: "https://heymyband.com",
